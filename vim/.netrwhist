@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/mario/Documentos/mis_archivos/estudio/programación/vim'
+let g:netrw_dirhist_2='/home/mario/Documentos/mis_archivos/estudio/programación/unity/curso_gamedev.tv/3ra_sección'
+let g:netrw_dirhist_3='/home/mario/Documentos/mis_archivos/estudio/materias'
+let g:netrw_dirhist_4='/home/mario/Documentos/mis_archivos/estudio/materias/idiomas/diccionario'
+let g:netrw_dirhist_5='/home/mario/Documentos/mis_archivos/universidad/6to_semestre/estructura_de_datos/tareas/2do_parcial/2da_tarea/.git'

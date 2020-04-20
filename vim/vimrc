@@ -1,0 +1,28 @@
+"Configuración de Vim 
+
+"Configuración de Interfaz
+set ignorecase      "Hace que las busquedas sean 'non-case-sensitive' (ignore case) 
+set nowrap	        "Hace que Vim no ajuste el texto a la pantalla
+set tabstop=4       "Cuando Vim lee un documento, toma el tab como 4 espacios
+set softtabstop=4   "Tamaño del 'tab' cuando nos encontramos editando. Los espacios que Vim inserta como 'tab' cuando editamos.
+set expandtab       "Hace que los 'tabs' que insertemos cuenten como espacios. Tab = 4 espacios.
+syntax enable       "Le permite a Vim cambiar el color de las letras/subrayar
+set number          "Muestra números de línea.
+"set cursorline     "Subraya la palabra donde se encuentra nuestro cursor.
+"filetype indent on  "Permite a Vim identificar el tipo de archivo que abrimos e indentado depndiente del archivo.
+"set showmatch       "Cuando nuestro cursor pasa por un '({[' equivalente los muestra remarcados.
+colorscheme sublimemonokai "Tema elegido
+
+"Configuración de busqueda
+set hlsearch        "Las busquedas se 'remarcan'
+set incsearch       "Nos muestra resultados mientras buscamos lo que queremos buscar
+"set foldenable      "Nos permite hacer 'folding' como en un IDE en el que podemos cerrrar el contenido de las llaves.
+"set foldlevelstart=10 "Va a abrir los 'folds' por defecto. Con 'za' podemos abrir los 'folds'
+"set foldnestmax=10  "El número máximo de folds que pueden estar dentro de un fold.
+"set foldmethod=indent "Hace el fold dependiendo de la identación
+set autoindent        "Copia el indentado donde estaba posisionado el cursor a una nueva línea.
+
+"Configuración de tema
+let java_comment_strings=1
+let java_highlight_functions=1
+let java_highlight_java_lang_ids=1
